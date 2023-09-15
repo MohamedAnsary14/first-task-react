@@ -1,0 +1,14 @@
+.navbar{
+  background-color: #2C3E50;
+ 
+}
+#Nav-Logo{
+    color: white;
+    font-size:32px;
+    font-weight: bold;
+}
+.nav-item a{
+    color: white;
+    font-size:16px;
+    font-weight: bold;
+}

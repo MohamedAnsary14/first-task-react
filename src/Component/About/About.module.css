@@ -1,0 +1,9 @@
+section {
+    background-color: #1ABC9C;
+    color: white;
+}
+.line{
+    background-color: white;
+    height: 4px;
+    width: 80px;
+}
