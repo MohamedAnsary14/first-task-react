@@ -15,7 +15,7 @@ import StartFramework from './Component/StartFramework/StartFramework';
 function App() {
 
 let routers=createBrowserRouter([
-  {path:'',element:<Layout/>,children:[
+  {path:'/',element:<Layout/>,children:[
     {index:true,element:<StartFramework/>},
     {path:'about',element:<About/>},
     {path:'portfolio',element:<Portfolio/>},
@@ -25,7 +25,8 @@ let routers=createBrowserRouter([
     
   ]}
 
-])
+],{basename:"/first-task-react/"})
+
   return <>
    <RouterProvider router={routers}></RouterProvider>
   </>
